@@ -76,6 +76,12 @@ System.out.println(d%f);
 System.out.println(d/f);
 // comparision operater like <(grater than),>(less than),==(equal to),<=(greater than or equal to),>=(less than or equal to )
 //bitwise operater like &&(and),||(or),!=(not equal)
-// precedence, which means 
+/*  precedence, which means if we some time we can do three calculation like 3+2*2 on that time the compiler is confused to say 
+like error so we use brackets to say the compiler to star first calculation is 3+2 and second calculation is 5*2 so we use (3+2)*2 this is help to the compiler */
+int h,i,j;
+h = 2;
+i = 3;
+j = 2;
+System.out.println((h+i)*2);
   }
 }
