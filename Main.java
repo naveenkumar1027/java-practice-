@@ -83,5 +83,35 @@ h = 2;
 i = 3;
 j = 2;
 System.out.println((h+i)*2);
-  }
+// JAVA STRING 
+// string length () method it will count whitespace also 
+String javafname = "Naveenkumar S";
+System.out.println("the string leanght "+ javafname.length());
+// srtring have many java method the are toUpperCase()/toLowerCase() and indexOf() methos is eued to count the specific character include white space .
+System.out.println(javafname.toUpperCase());
+System.out.println(javafname.toLowerCase());
+System.out.println(javafname.indexOf("kumar"));
+// charAt() is used access a specific character like index value 0,1,2,3,4,.
+System.out.println(javafname.charAt(0));
+String javalname = "Naveenkumar S";
+System.out.println(javafname.equals(javalname));
+// using trim() method is used to remove white space 
+String javafirstname = "    Hello harini Madam      ";
+System.out.println("Before ["+javafirstname+"]");
+System.out.println(" After ["+javafirstname.trim()+"]");
+// concatenation using "+" sysmbol and we can also use concat() method also 
+System.out.println(javafname+"  "+javalname);
+System.out.println(javafname.concat(javalname));
+// number and string means we can also create variable in string give value in number with double quotes like "10".
+String javalast_name = "10";
+int fnumber = 10;
+System.out.println(javalast_name+fnumber);
+//string special character if we some time we want to print single and double quotes and also slash on that time we use string special character
+// print single quotes 
+System.out.println("\'single quotes\'");
+// print double quotes 
+System.out.println("\"double quotes\"") ;
+// print backslash
+System.out.println("\\Backslach\\");
+}
 }
